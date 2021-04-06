@@ -18,7 +18,7 @@ function shuffle(array) {
       array[randomIndex] = temporaryValue;
     }
     return array;
-  }
+}
 
 function displayeffect() {
     const btnmove = document.getElementById('btnmove');
