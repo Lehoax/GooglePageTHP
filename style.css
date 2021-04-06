@@ -1,0 +1,232 @@
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+body{
+ font-family: Arial, sans-serif;   
+ font-size: 14px;
+ margin: 0px;
+ z-index: 0;
+ display : table;
+ width: 100%;
+
+}
+
+li{
+    list-style: none;
+    font: 13px/27px Arial,sans-serif;
+}
+.nav{
+    line-height: 24px;
+    margin-right: 5px;
+    margin: 6px;
+}
+ul{
+    margin: 0px;
+}
+.app{
+    height: 24px;
+    width: 24px;
+    padding: 8px;
+    margin-right: 7px;
+}
+.app:hover{
+    border-radius: 25px;
+    background-color: #DCDCDC;
+    cursor: pointer;
+}
+.navLi{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 4px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+#logoL{
+    border-radius: 50%;
+    height: 32px;
+    height: 32px;
+    padding: 4px;
+}
+#ImgLink{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Linktxt{
+    padding: 7px 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration:underline;
+}
+#logoGoogle{
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    display: block;
+    margin: 30px auto;
+
+}
+.middleContent{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 98vw;
+    margin-top: 30px;
+}
+.inputSearch{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+    border: none;
+    outline-style: none;
+    height:34px ;
+
+}
+.searchbar{
+    width: 560px;
+    height: 39px;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 50px;
+    margin-top: 20px;
+
+}
+.searchbar:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+.logoSearch{
+    height: 20px;
+    width: 20px;
+   margin-top: 10px;
+   margin-left: 15px;
+   padding-right: 10px;
+}
+.Logomicro{
+    height: 24px;
+    width: 24px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.btnSearchGrp{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 18px;
+    padding: auto;
+}
+.btnSearch{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    margin-right: 4px;
+    margin-left: 4px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+
+
+}
+.btnSearch:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+
+}
+#InEnglish{
+    color: blue;
+}
+#enAnglais{
+    text-align: center;
+    font-size: small;
+}
+.footLink{
+    font-size: 15px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    color :rgba(0,0,0,.54)
+}
+.France{
+    font-size: 15px;
+    padding: 14px;
+    color :rgba(0,0,0,.54)
+}
+.footerNav{
+    display: flex;
+    justify-content: space-between;
+}
+.liFooter{
+    display: flex;
+    height: fit-content;
+}
+
+footer {
+	display : table-row;
+	height: 0px;
+    background-color: #f2f2f2;
+}
+.hide{
+    display: none;
+}
+
+#carbonImg{
+    height:12.5px;
+    width: 14px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+#carbonTxt{
+    margin-top: 6px;
+    margin-bottom: 13px;
+    color :rgba(0,0,0,.54)
+}
+
+#glitchP{
+    padding: 0;
+    margin: 0;
+}
+@keyframes skew {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
+  
+}
+.glitchEffect{
+    animation: skew 1s;
+    transform: skew();
+}
+@media screen and (max-width: 1200px)
+{
+
+    #logoGoogle {
+        height: 50px;
+    }
+    .liFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+    }
+    #carbonClass{
+        display: none;
+    }
+    .searchbar{
+        justify-content: center;
+        width: auto;
+    }
+
+}
